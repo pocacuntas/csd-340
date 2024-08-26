@@ -1,0 +1,25 @@
+#container {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+h1, h2, h3, h4 {
+    background-color: #98FB98; /* Pale Green */
+    color: #FF1493; /* Deep Pink */
+    border: 1px solid #D6A800;
+    padding: 10px;
+}
+
+a {
+    color: #006400; /* Dark Green */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FF69B4; /* Hot Pink */
+}
+
+a:visited {
+    color: #32CD32; /* Lime Green */
+}
