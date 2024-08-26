@@ -5,14 +5,14 @@
 }
 
 h1, h2, h3, h4 {
-    background-color: #66CDAA; /* Light Sea Green */
-    color: #FFC0CB; /* Pink */
+    background-color: #98FB98; /* Pale Green */
+    color: #FF1493; /* Deep Pink */
     border: 1px solid #D6A800;
     padding: 10px;
 }
 
 a {
-    color: #008080; /* Teal */
+    color: #006400; /* Dark Green */
     text-decoration: none;
 }
 
@@ -21,5 +21,5 @@ a:hover {
 }
 
 a:visited {
-    color: #2E8B57; /* Sea Green */
+    color: #32CD32; /* Lime Green */
 }
