@@ -1,0 +1,57 @@
+/* Center the h1 title */
+h1 {
+    text-align: center;
+}
+
+/* Set widths for side-by-side divs */
+#container > div {
+    width: 45%;
+    float: left;
+}
+
+/* Set width and margin-top for the last div */
+#container > div:last-of-type {
+    width: 100%;
+    margin-top: 60px;
+}
+
+/* Style the h3 tags */
+h3 {
+    font-weight: 500;
+}
+
+/* Style the ordered list */
+ol {
+    border: 1px solid red;
+    border-radius: 15px;
+    padding: 10px;
+    list-style-position: inside;
+    font-weight: 300;
+}
+
+/* Style the unordered list */
+ul {
+    border: 1px dashed red;
+    border-radius: 15px;
+    padding: 10px;
+    list-style: upper-roman;
+    list-style-position: inside;
+    font-weight: 300;
+}
+
+/* Style links */
+a {
+    text-decoration: none;
+    color: black; /* Adjust color as needed */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Float the last div */
+#container > div:last-of-type a {
+    float: right;
+    margin-bottom: 20px;
+}
+
