@@ -1,0 +1,23 @@
+/* CSS file for Assignment 9.2 */
+#container {
+    width: 80%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.intro {
+    font-weight: bold;
+}
+
+.sentence {
+    color: green;
+    font-style: italic;
+}
+
+address p {
+    margin: 0;
+}

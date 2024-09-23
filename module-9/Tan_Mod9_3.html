@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Assignment 9.3 JavaScript Part 1 - Biography">
+    <meta name="author" content="Tatiana Tan">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Biography">
+    <link rel="stylesheet" href="Tan_Mod9_3.css">
+    <title>CSD 340 Web Development with HTML and CSS</title>
+    <script>
+        var firstWord = "San Diego";
+        var secondWord = "hiking";
+        var thirdWord = "boyfriend";
+        var fourthWord = "developer";
+    </script>
+</head>
+<body>
+    <div id="container">
+        <h1>Assignment 9.3: JavaScript - Part 1</h1>
+
+        <p>Here's a short biography about me!:</p>
+
+        <p>I grew up in the big city of <span id="word1">_________</span>, surrounded by the beach and family and my friends. With my older sister and my twin, we enjoyed outdoor activities, especially <span id="word2">_________</span>. We loved to run outside and look at all the animals and plants. As an adult now, I still love to go hiking and now with my boyfriend.</p>
+
+        <p>My <span id="word3">_________</span> has always been supportive of my goals and passions. He has encouraged me to pursue my interests in technology and the beauty world which has lead to me pursing my degree in software development at Bellevue University.</p>
+
+        <p>Now, I am excited to continue learning and growing as a <span id="word4">_________</span>, applying the skills I’ve gained to build meaningful projects and help others. I hope I can potentially participate in a Hackathon with Sephora or any other major cosmetic beauty brand.</p>
+
+        <p>
+            <button type="button" onclick="document.getElementById('word1').innerHTML = firstWord">Reveal Word 1</button><br />
+            <button type="button" onclick="document.getElementById('word2').innerHTML = secondWord">Reveal Word 2</button><br />
+            <button type="button" onclick="document.getElementById('word3').innerHTML = thirdWord">Reveal Word 3</button><br />
+            <button type="button" onclick="document.getElementById('word4').innerHTML = fourthWord">Reveal Word 4</button>
+        </p>
+
+        <hr />
+        <address>
+            <p><a href="https://www.bellevue.edu" target="_blank">Bellevue University</a></p>
+            <p>1000 Galvin Road South</p>
+            <p>Bellevue, NE 68005</p>
+        </address>
+    </div>
+</body>
+</html>
