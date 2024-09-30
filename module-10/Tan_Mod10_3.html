@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSD 340 Web Development with HTML and CSS</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .image-container {
+            margin-bottom: 20px; 
+
+        img {
+            width: 300px; 
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Assignment 10.3: JavaScript - Part 2</h1>
+
+    <!-- Section for Pepper and Honey -->
+    <div class="image-container">
+        <h2>Click the image to change Pepper and Honey:</h2>
+        <img id="pepperImage" src="images/pepper.jpg" alt="Pepper" onclick="changePepperImage()">
+    </div>
+
+    <!-- Section for Best Friends -->
+    <div class="image-container">
+        <h2>Click the image to change Best Friends:</h2>
+        <img id="bestFriendsImage" src="images/bestfriends.jpeg" alt="Best Friends" onclick="changeBestFriendsImage()">
+    </div>
+
+    <script>
+        // Function to change Pepper and Honey images
+        function changePepperImage() {
+            var image = document.getElementById('pepperImage');
+            if (image.src.match("pepper")) {
+                image.src = "images/honey.jpeg";
+            } else {
+                image.src = "images/pepper.jpeg";
+            }
+        }
+
+        // Function to change Best Friends images
+        function changeBestFriendsImage() {
+            var image = document.getElementById('bestFriendsImage');
+            if (image.src.match("bestfriends")) {
+                image.src = "images/bestfriends2.jpeg";
+            } else {
+                image.src = "images/bestfriends.jpeg";
+            }
+        }
+    </script>
+</body>
+</html>
