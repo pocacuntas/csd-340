@@ -1,0 +1,42 @@
+
+h1 {
+    font-family: Verdana, Geneva, sans-serif;
+    color: #3B402E; 
+}
+
+
+body {
+    background-color: #73804E; 
+    color: #333333; 
+    font-family: Arial, sans-serif; 
+}
+
+button {
+    background-color: #F8BBD0; 
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #F48FB1; 
+}
+
+input[type="text"] {
+    padding: 5px;
+    border: 2px solid #F8BBD0; 
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+p {
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #ECADD2;
+    border-radius: 5px;
+}
